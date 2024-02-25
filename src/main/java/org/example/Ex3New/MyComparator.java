@@ -1,0 +1,1 @@
+package org.example.Ex3New;import java.util.Comparator;public class MyComparator implements Comparator<Car1> {    @Override    public int compare(Car1 o1, Car1 o2) {        return Integer.compare(o2.getPriority().getIndexPriority(), o1.getPriority().getIndexPriority());    }}
